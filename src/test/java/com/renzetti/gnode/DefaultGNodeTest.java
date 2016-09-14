@@ -22,7 +22,7 @@ public class DefaultGNodeTest {
 		DefaultGNode child1 = new DefaultGNode("child1");
 		root.addChild(child1);
 		assertNotNull(root.getChildren());
-		assertEquals(root.getChildren().length, 11);
+		assertEquals(root.getChildren().length, 1);
 		assertTrue(root.getChildren()[0].equals(child1));
 
 		// Two children
